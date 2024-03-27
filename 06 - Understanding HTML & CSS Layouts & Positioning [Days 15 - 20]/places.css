@@ -7,9 +7,26 @@ header {
   position: static;
 }
 
+#page-logo a {
+  color: rgb(183, 230, 235);
+}
+
+header a {
+  color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+  background-color: rgb(183, 230, 235);
+  color: rgb(59, 59, 59);
+}
+
 main ul {
   width: 1200px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 48px 0;
 }
 
 main li {
@@ -26,11 +43,18 @@ main li img {
   object-fit: cover;
 }
 
+main li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+}
+
 .item-content {
   padding: 24px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.item-content h2 {
+  margin: 0;
 }
 
 .actions {
