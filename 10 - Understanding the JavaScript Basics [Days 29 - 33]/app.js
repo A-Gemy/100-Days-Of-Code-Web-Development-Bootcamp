@@ -39,7 +39,7 @@ function calculateAdultYears(userAge) {
   return userAge - 18;
 }
 totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+// alert(totalAdultYears);
 age = 45;
 totalAdultYears = calculateAdultYears(age);
-alert(totalAdultYears);
+// alert(totalAdultYears);
