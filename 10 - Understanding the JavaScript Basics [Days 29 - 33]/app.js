@@ -39,7 +39,17 @@ function calculateAdultYears(userAge) {
   return userAge - 18;
 }
 totalAdultYears = calculateAdultYears(age);
-// alert(totalAdultYears);
+// console.log(totalAdultYears);
 age = 45;
 totalAdultYears = calculateAdultYears(age);
-// alert(totalAdultYears);
+// console.log(totalAdultYears);
+
+// METHODS
+let person = {
+  name: "Ahmed", // Property
+  // Method
+  greet() {
+    console.log("Hello!");
+  },
+};
+person.greet();
