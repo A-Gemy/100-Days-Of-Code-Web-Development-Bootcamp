@@ -31,3 +31,7 @@ console.log(myName.length);
 console.log(myName.toUpperCase());
 console.log(myName.toLowerCase());
 console.log(myName.charAt(1));
+
+// ARRAYS OPERATIONS
+let sports = ["Football", "Basketball"];
+console.log(sports.length);
