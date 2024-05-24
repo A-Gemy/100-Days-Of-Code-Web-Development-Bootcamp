@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 2rem;
+}
+
+#main-img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+section {
+  width: 100%;
+  max-width: 50rem;
+  margin: 1rem auto;
+}
+
+footer {
+  margin-top: 5rem;
+}
