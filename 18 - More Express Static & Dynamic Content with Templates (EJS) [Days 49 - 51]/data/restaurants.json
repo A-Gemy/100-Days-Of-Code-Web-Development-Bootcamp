@@ -1,9 +1,1 @@
-[
-  {
-    "name": "Abdo Kalawy",
-    "address": "Teststreet 5, Testcity",
-    "cuisine": "Egyptian",
-    "website": "https://example.com/",
-    "description": "It's awesome!"
-  }
-]
+[{"name":"Abdo Kalawy","address":"Teststreet 5, Testcity","cuisine":"Egyptian","website":"https://example.com/","description":"It's awesome!"},{"name":"Test2","address":"Test2 Address","cuisine":"Mexican","website":"https://example.com/","description":"Test2"}]
