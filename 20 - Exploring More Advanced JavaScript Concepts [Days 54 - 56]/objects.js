@@ -1,5 +1,5 @@
 /******************/
-/* INTRODUCING CLASSES AS OBJECT BLUEPRINTS */
+/* INTRODUCING CLASSES AS OBJECT BLUEPRINTS - CLASSES & METHODS & THIS */
 /******************/
 // THIS IS THE WAY WE USE TO CREATE AN OBJECT (OBJECT LITERAL NOTATION)
 // const job = {
@@ -43,3 +43,30 @@ console.log(engineer);
 
 developer.describe();
 engineer.describe();
+
+/******************/
+/* DESTRUCTURING OBJECTS & ARRAYS */
+/******************/
+// ARRAYS
+const input = ["Ahmed", "Gamal"];
+// OLD WAY
+const firstName = input[0];
+const lastName = input[1];
+console.log(firstName, lastName);
+// WITH DESTRUCTURING
+const [first, last] = input;
+console.log(first, last);
+
+// OBJECTS
+const job3 = { title: "Developer", location: "New York" };
+// OLD WAY
+const jobTitle = job3.title;
+const jobLocation = job3.location;
+console.log(jobTitle, jobLocation);
+// WITH DESTRUCTURING
+/* NOTICE YOU HAVE TO USE THE SAME PROPERTY NAME*/
+const { title, location } = job3;
+console.log(title, location);
+// IF YOU WANT TO USE YOUR OWN NAME
+const { title: jTitle } = job3;
+console.log(jTitle);
